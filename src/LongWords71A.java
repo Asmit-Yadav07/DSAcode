@@ -1,4 +1,3 @@
-package DSAcodeForces.src;
 
 
 import java.util.Scanner;
