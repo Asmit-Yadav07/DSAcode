@@ -1,3 +1,4 @@
+package SimpleQues;
 
 
 import java.util.Scanner;
