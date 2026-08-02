@@ -4,7 +4,7 @@
 
 package Array;
 
-public class arraySortedAndRotated {
+public class ArraySortedAndRotated {
   public static boolean check(int[]nums){
     int count=0;
     for(int i =0;i<nums.length;i++){

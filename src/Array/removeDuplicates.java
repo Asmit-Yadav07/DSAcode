@@ -4,7 +4,7 @@
 
 package Array;
 
-public class removeDuplicates {
+public class RemoveDuplicates {
     public int removeDuplicate(int[] nums) {
         int i=0;
         for (int j=0;j<nums.length;j++){
@@ -17,7 +17,7 @@ public class removeDuplicates {
     }
     public static void main(String[] args) {
         int [] nums={0,0,1,1,1,2,2,3,3,4};
-        removeDuplicates re=new removeDuplicates();
+        RemoveDuplicates re=new RemoveDuplicates();
         System.out.println(re.removeDuplicate(nums));
         }
     }

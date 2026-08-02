@@ -1,6 +1,6 @@
 package Array;
 
-public class getSecondLargest {
+public class GetSecondLargest {
     public static int secondLargest(int[] arr) {
         // code here
         if(arr.length==1){
