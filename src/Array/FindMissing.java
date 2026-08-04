@@ -9,15 +9,16 @@ package Array;
 
 public class FindMissing {
     static int missingNum(int arr[]) {
-        // code here
-       int n=arr.length+1;
-       int expectedSum=n*(n+1)/2;
-       int sum=0;
+      
+        int n=arr.length+1;
+       long expectedSum=(long)n*(n+1)/2;
+       long sum=0;
        for(int i =0;i<n-1;i++){
            sum+=arr[i];
        }
-       return expectedSum-sum;
+       return (int)(expectedSum-sum);
     }
+    
     public static void main(String[] args) {
         int [] n={1,2,4,5};
         System.out.println(missingNum(n));
